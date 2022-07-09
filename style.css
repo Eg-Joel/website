@@ -1,0 +1,398 @@
+body{
+        margin: 0%;
+}
+
+
+.background{
+        width: 100%;
+        height: 100vh;  
+        background-image: url(images/star1.jpg);
+        background-size: cover;
+        background-position: center;
+        opacity: 1; 
+        visibility: inherit;
+        
+      
+}
+.container{
+        background-color: black;
+}
+.head{
+
+        width: 100%;
+        height: 60px;
+        background-color: black;
+       
+}
+   .navgation{
+        padding-top: 30px;
+        text-transform: uppercase;
+        font: 16px/26px Roboto,Helvetica,sans-serif;
+        font-weight: 700;
+   }
+
+.logo{
+        background-image: url(images/logo_x_white.png);
+        background-size: cover;
+        background-position: 50%;
+        width: 81px;
+        margin-left: 47%;
+        padding-top: 30px;
+        text-align: center;
+        display: inline-block;
+        cursor: pointer;
+} 
+.right{
+
+        display: inline-block;
+        float: right;
+        
+}        
+p{
+        color: white;
+}
+     
+.res{
+        display: inline-block;
+        width: 98px;
+        height: 28px;
+        margin-left: 45px;
+        cursor: pointer;
+}
+.bus{
+        width: 75px;
+        height: 28px;
+        display: inline-block;
+        margin-left: 45px;
+        cursor: pointer;
+}
+.rv{
+        width: 65px;
+        height: 28px;
+        display: inline-block;
+        margin-left: 45px;
+        cursor: pointer;
+       
+}
+.menus{
+        display: inline-block;
+        padding-right: 35px;
+        cursor: pointer;
+}
+.imgs{
+        width: 25px;
+        filter: none;
+        height: 20px;
+        background-size: 20px;
+        background-repeat: no-repeat
+}
+h2{
+        color: white;
+        text-transform: uppercase;
+        font: 50px/50px Oswald,Arial,Verdana,sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        text-align: center;
+
+}
+.para1{
+        width: 571px;
+        margin-left: auto;
+        margin-right: auto;
+}
+.detail{
+        font: 16px/22px DIN_Regular,Arial,Verdana,sans-serif;
+        text-align: center;
+ 
+}
+
+.service{
+        box-sizing: border-box;
+        text-align: center;
+        padding-top: 410px;
+    }
+
+
+#addres{
+        background-color: transparent;
+        color: #b8b8b8;
+        padding: 0 26px;
+        line-height: 50px;
+        font-size: 12px;
+        font-weight: 400;
+        margin-right: 18PX;
+        width: 416px;
+        height: 48px;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 4px;
+        border-color: white;
+}
+.btn{
+      
+        display: inline-block;
+        width: 186px;
+        height: 50px;
+        font: 12px/18px Roboto,Helvetica,Arial,Verdana,sans-serif;
+        font-weight: 700;
+        border-radius: 4px;
+        cursor: pointer;
+}
+.avail{
+        text-align: center;
+        height: 10px;
+        cursor: pointer;
+        padding-top: 5px;
+}
+p{
+        display: inline-block;
+}
+.check{
+        text-transform: uppercase;
+        font: 14px/16px DIN_Bold,Arial,Verdana,sans-serif;
+        font-weight: bold;
+        
+        
+}
+.privacy{
+        font: 10px/16px Roboto,Helvetica,Arial,Verdana,sans-serif;
+        color: #888;
+        
+}
+.by{
+        text-align: center;
+        padding-top: 40px;
+}
+.policy{
+        font-weight: 400;
+        opacity: .7;
+        text-decoration: underline;
+        color: #fff;
+}
+.second-background{
+        width: 100%;
+        min-height: 100vh;  
+        background-image: url(images/Marketing_LandingHighspeed.jpg);
+        background-size: cover;
+        background-position: center;
+        
+}
+.second-para{
+        width: 595px ;
+        margin-top: 60px;
+        
+        padding-block-start: 99px;
+        margin-left: auto;
+        margin-right: 20px;
+        text-align: left;
+}
+.h2s{
+        
+        
+        margin: auto auto 35px;
+}
+.high-speed{
+        text-align: left;
+}
+.with{
+        font: 16px/22px DIN_Regular,Arial,Verdana,sans-serif; 
+       width: 595;
+}
+.btns{
+        margin-top: 40px;
+}
+.bt{
+        font: 14px/14px Roboto,Arial,Verdana,geneva,sans-serif;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 288px;
+        background-color: transparent;
+        cursor: pointer;
+        border-width: 1px;
+        border-color: white;
+        border-radius: 4px;
+        color: white;
+        border-style: solid;
+
+}
+.bt:active{
+        background-color: white;
+        color: black;
+        
+}
+.whitenblack{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+}
+
+.easy-background{
+        width: 50%;
+        min-height: 100vh;
+        float: left;
+        background-color: black;
+        background-size: cover;
+        display: flex;
+
+}
+
+.easy-to{
+        width: 78;
+        
+        margin-top: 30px;
+        
+        width: 76%;
+        padding-block-start: 99px;
+        margin-left: auto;
+        margin-right: 20px;
+        float: left;
+        padding-right: 15px;
+}
+.white-background{
+        width: 50%;
+        min-height: 100vh;
+        background-image: url(images/Marketing_LandingPlugin.jpg);
+        background-size: cover;
+}
+span{
+        text-decoration: underline;
+        font-weight: bold;
+        cursor: pointer;
+}
+.buttons{
+        
+        width: 276px;
+        font: 14px/14px Roboto,Arial,Verdana,geneva,sans-serif;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        margin: 5px;
+        background-color: transparent;
+        cursor: pointer;
+        border-width: 1px;
+        border-color: white;
+        border-radius: 4px;
+        color: white;
+        border-style: solid;
+
+}
+.buttons:active{
+        background-color: white;
+        color: black;
+}
+.white-background2{
+        width: 50%;
+        height: 100vh;
+        background-image: url(images/Marketing_LandingRural.jpg);
+        background-size: cover;
+}
+.thrid-background{
+        width: 100%;
+        min-height: 100vh;  
+        background-image: url(images/Marketing_LandingPreserving.jpg);
+        background-size: cover;
+        background-position: center;
+        
+}
+.thrid-para{
+        width: 582px ;
+        
+        
+        padding-block-start: 99px;
+        margin-left: 120px;
+        margin-right: auto;
+        text-align: left;
+}
+.white-background3{
+        width: 50%;
+        height: 100vh;
+        background-image: url(images/Marketing_LandingKeepingClean.jpg);
+        background-size: cover;
+}
+.white-background4{
+        width: 50%;
+        height: 100vh;
+        background-image: url(images/Marketing_LandingEngineered.jpg);
+        background-size: cover;
+}
+.last{
+        width: 100%;
+        height: 590px;
+        background-color: black;
+        background-size: cover;
+        display: flex;
+        text-align: center;
+}
+.last-inner{
+        width: 950px;
+        height: 430px;
+        margin-left: auto;
+        margin-right: auto;
+
+        
+}
+.line{
+        width: 1px;
+        background-color: #fff;
+        border-radius: 1px;
+        height: 230px;
+        margin: 60px auto;
+}
+footer{
+        width: 100%;
+        height: 100px;
+        background-color: black;
+        display: inline-block;
+}
+.star{
+        width: 33%;
+        height: 20px;
+        display: inline-block;
+       
+       
+}
+.starl{
+        color: #757575;
+        font: 16px/30px Roboto,Helvetica,Arial,Verdana,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 12px;
+        line-height: 20px;
+        padding-left: 22px;
+       
+}
+.satelite{
+        width: 33%;
+        height: 20px;
+        display: inline-block;
+        font: 13px/23px Roboto,Helvetica,Arial,Verdana,sans-serif;
+        font-weight: 400;
+        font-style: normal; 
+        text-align: center;
+}
+
+.starls{
+        color: #757575;
+        text-decoration: none;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: right;
+
+}
+.stars{
+        width: 33%;
+        height: 20px;
+        display: inline-block;
+        font: 13px/23px Roboto,Helvetica,Arial,Verdana,sans-serif;
+        font-weight: 400;
+        font-style: normal; 
+        text-align: right;
+}
+       
+
+.links{
+        color: white;
+        text-decoration: none;
+}
